@@ -20,11 +20,7 @@ Este projeto tem como objetivo aplicar o algoritmo K-Means para realizar agrupam
    ```
 
 3. **Execute o Código**:
-   Para rodar o código, basta executar o notebook ou o script Python correspondente:
-   ```bash
-   python main.py
-   ```
-   Ou abra o arquivo `main.ipynb` em um ambiente de notebook, como Jupyter ou VS Code, e execute as células sequencialmente.
+   Para rodar o código, basta executar o notebook, abra o arquivo `kmeans.ipynb` em um ambiente de notebook, como Jupyter ou VS Code, e execute as células sequencialmente.
 
 ## Principais Conclusões
 - **Número de Clusters**:

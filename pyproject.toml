@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "k-means"
+version = "1.0.0"
+description = "Notebook que tenta implementar e avaliar o algoritmo de K-means usando o dataset \"Human Activity Recognition Using Smartphones\" para agrupar atividades humanas baseadas em dados de sensores."
+authors = ["gmcosta <geu_costa@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+numpy = "^2.1.3"
+scikit-learn = "^1.5.2"
+matplotlib = "^3.9.3"
+seaborn = "^0.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
